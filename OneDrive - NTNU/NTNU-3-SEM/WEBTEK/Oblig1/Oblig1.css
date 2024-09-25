@@ -1,0 +1,258 @@
+body   {
+    margin: 0px;
+}
+header {
+    background-color: #1f2936;
+    padding: 2px 0;
+    text-align: center;
+    color: #fffeff;
+
+    
+}
+
+header .logo  {
+    display: block;
+    margin: 0 auto;
+    padding: 15px 0;
+    height: 0%;
+    font-style: bold;
+    font-size: 20px;
+    
+    
+}
+header a {
+    color: #fffeff;
+    text-decoration: none;
+    
+}
+
+
+nav {
+    padding-bottom: 25px;
+    border-bottom: 2px solid #293746;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 0 0 0;
+    
+
+}
+
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+/*can be omitted*/
+nav ul li a:hover {
+    color: #45607a;
+}
+
+
+header section {
+    display: flex;
+    padding: 50px 150px;
+    width: 933.333px;
+    
+}
+
+/*How can I get the text in the center of the img?*/
+header section img {
+    width: 400px;
+    height: 200px;
+    background-color: #6d737d;
+    margin-left:auto;
+    
+}
+header section div {
+    width: 300px;
+    height: 200px;
+    text-align: left;
+}
+header div h1 {
+    font-size: 30px;
+    font-weight: 700;
+    
+    margin: 0;
+    padding: 0;
+}
+
+header button {
+    background-color: #3782f5;
+    border: 1px solid #3782f5;
+    color: #fffeff;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 7px 20px;
+    font-size: 15px;
+    margin-top: 0px;
+
+    border-radius: 10px;
+    /*this didnt work?*/
+    cursor: pointer;
+}
+
+/* Done with the header and header intro*/
+
+section {
+    
+    width: 700px; 
+    text-align: center;
+    margin: 0 auto; /* Center the section horizontally */
+}
+section div {
+
+    margin: 0 auto;
+    padding: 50px 0;
+    text-align: left;
+}
+
+section div{
+    padding: 20px;
+}
+section div img {
+    width: 250px;
+    height: 140px;
+    border: 5px solid #3782f5;
+    border-radius: 10px;
+    
+}
+section img {
+    float: left;
+    margin-right: 25px;
+}
+#right {
+    float: right;
+    margin-left: 15px;
+    margin-right: 0px;
+
+}
+
+/* THIS SECTION IS NOW A NEW ONE THIS IS THE QUOTE SECTION */
+section#qoute {
+    background-color: #e4e5eb;
+    width: auto;
+    margin: 50px 0;
+    
+}
+section#qoute div {
+    width: 700px;
+    margin: 0 auto;
+    padding: 50px 0;
+    font-size: large;
+    text-shadow: #1f2936 1px 0 10px;
+    text-align: left;
+    
+}
+
+section#qoute p#author {
+    text-align: right;
+    font-weight: bolder;
+    text-shadow: firebrick 0px 0 0px;
+}
+
+
+/* NOW TO CALL TO ACTION SECTION */
+
+section#cta {
+
+    background-color: #3782f5;
+    color: #fffeff;
+    padding: 10px 0;
+    text-align: center;
+    display: flex;
+    border-radius: 20px;
+    
+}
+
+
+section#cta p, section#cta h3 {
+    margin: 0;
+    width: 500px;
+    padding-left: 50px;
+    
+}
+section#cta div {
+    
+    width: 500px;
+    margin-left: 0px;
+
+}
+
+
+section#cta button {
+    display: flex;
+    background-color: #3782f5;
+    color: #fffeff;
+    border: 2px solid #fffeff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+/* NOW TO THE FOOTER SECTION */
+
+footer {
+    background-color: #1f2936;
+    color: #fffeff;
+    text-align: center;
+    padding: 25px 0;
+    margin-top: 50px;
+}
+
+/* POSTS CONTAINER SECTION */
+
+#posts-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    margin:250px auto;
+}
+
+#post-container h1 {
+    text-align: center;
+}
+
+.post {
+    width: 30%;
+    background-color: #f4f4f4;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.post h3 {
+    margin-top: 0;
+}
+
+/* WEATHER INFORMATION SECTION FOR PAGE 3*/
+
+#weather-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 50px auto;
+}
+
+.weather {
+    width: 45%; 
+    background-color: #f4f4f4;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.weather h3 {
+    margin-top: 0;
+}
+
+#weathert {
+    text-align: center;
+}
