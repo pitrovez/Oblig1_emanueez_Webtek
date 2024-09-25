@@ -219,11 +219,11 @@ footer {
 
 .post {
     width: 30%;
-    background-color: #f4f4f4;
+    background-color: #d4dced;
     margin-bottom: 20px;
     padding: 10px;
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
 }
 
 .post h3 {
@@ -242,11 +242,11 @@ footer {
 
 .weather {
     width: 45%; 
-    background-color: #f4f4f4;
+    background-color: #d4dced;
     margin-bottom: 20px;
     padding: 10px;
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
 }
 
 .weather h3 {
